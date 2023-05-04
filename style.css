@@ -1,0 +1,203 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+#top{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+.hr1{
+    border: 3px solid rgb(235, 123, 123);
+}
+.hr2{
+    border: 3px solid rgb(151, 137, 224);
+}
+.hr3{
+    border: 3px solid rgb(105, 65, 36);
+}
+.hr4{
+    border: 3px solid rgb(89, 198, 165);
+}
+.hr5{ border: 3px solid rgb(70, 9, 193);
+    
+}
+.hr6{ border: 3px solid rgb(9, 193, 190);
+}
+body{
+    background-color: rgba(235, 234, 234, 0.435);
+    font-family: 'Chivo Mono', monospace;
+}
+
+/* Navigation Bar  */
+#navbar{
+    display: flex;
+    background-color: black;
+    color: white;
+    /* vertical alignment in middle  */
+    align-items: center;
+    font-family: 'Chivo Mono', monospace;
+    position: sticky;
+    top: 0px;
+}
+
+#logo{
+    width: 20%;
+    text-align: center;
+}
+
+#logoimage{
+    margin: 5px;
+    padding: 2px;
+    height: 70px;
+    border-radius: 40px;
+
+}
+
+#links{
+    width: 60%;
+}
+
+#navlinks{
+    display: flex;
+    list-style-type:none;
+   
+}
+
+#navlinks li{
+    padding: 10px;
+}
+
+#navlinks a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Chivo Mono', monospace;
+    padding: 9px;
+    border-radius: 15px;
+}
+
+#navlinks a:hover{
+    color: brown;
+    background-color: azure;
+    transition: 1s;
+}
+
+#search{
+    width: 20%;
+    /* horizontal center  */
+    text-align: center;
+    /* vertical middle  */
+    align-items: center;
+}
+
+#searchbox{
+    width: 110px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: beige;
+    padding: 15px;
+}
+/* Navigation Bar Ends Here  */
+
+/* Welcome Section Starts */
+#welcome{display: flex;
+    height: 900px;
+    justify-content: center;
+    align-items: center;
+}
+/* About us Starts */
+#aboutus{
+    height: 400px; 
+    text-align: center;
+    padding: 15px;
+    background-image: url(lemon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#services
+{
+    display: flex;
+    justify-content: space-evenly;
+    height:900px;  
+}
+.border1{
+
+    border-width: 3px;
+    border-style: groove;
+    border-color: black;
+    border-radius: 5px;
+    height: 300px;
+    width: 30%;
+    padding: 15px;
+    margin: 15px;
+}
+#servicefood{
+    background-color: darkcyan;
+}
+#servicecatering{
+    background-color: cadetblue;
+}
+#servicebulk{
+    background-color: rgb(143, 212, 189);
+}
+.serviceimg{
+   height: 200px;
+   width: 200px;
+   border-radius: 20px;
+   margin: 10px;
+    border-width: 2px;
+    border-style: groove;
+    align-content: center;
+}
+.font1{
+    font-size: 20px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+/* Clients Section starts here */
+#clients{
+    height:900px;
+}
+/* Contact Us Section Starts here*/
+#contactus{
+    height:900px;
+    background-image: url(foood.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    
+}
+.font2{
+    color: azure;
+    font-size: 30px;
+    text-align: center;
+}
+#contactbox{
+    width: 40%;
+    margin: auto;
+}
+#contactbox input #contactbox textarea{
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    font-size: 18px;
+}
+#contactbox label{
+    margin: 5px;
+    color: beige;
+}
+#submit1{
+    
+}
+/* Social Media Section starts*/
+#Social{
+    height:900px;
+}
